@@ -1,0 +1,117 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  outline: none;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #74b9ff;
+}
+
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.add {
+  background: #00b894;
+  color: white;
+}
+
+.add:hover {
+  background: #019874;
+}
+
+.update {
+  background: #fdcb6e;
+  color: #333;
+  display: none;
+}
+
+.update:hover {
+  background: #e0a33c;
+}
+
+.delall {
+  background: #d63031;
+  color: white;
+}
+
+.delall:hover {
+  background: #a71c1c;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f1f2f6;
+  margin: 10px 0;
+  padding: 12px 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+li button {
+  margin-left: 10px;
+}
+
+.btn {
+  background: #ff7675;
+  color: white;
+}
+
+.btn:hover {
+  background: #d63031;
+}
+
+.edibtn {
+  background: #0984e3;
+  color: white;
+}
+
+.edibtn:hover {
+  background: #0652dd;
+}

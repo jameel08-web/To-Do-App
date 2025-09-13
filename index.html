@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- SweetAlert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>✨ My Todo List ✨</h1>
+
+    <div class="input-area">
+      <input type="text" id="input" placeholder="Enter your Task">
+      <button onclick="addtodo()" class="add" id="add">➕ Add Item</button>
+      <button onclick="updatetodo()" class="update" id="update">✏️ Update Item</button>        
+      <button onclick="deleteall()" class="delall">🗑️ Delete All</button>
+    </div>
+    
+    <ul id="list"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
